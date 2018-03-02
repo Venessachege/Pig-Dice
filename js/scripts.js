@@ -23,8 +23,8 @@ $(document).ready(function(){
      $("#title").append(name);
      $("form#form2").hide();
 });
-   $("#roll").submit(function(){
-    
+   $("#roll").submit(function(event){
+    event.preventDefault();
     console.log(diceRoller());
 
    });
