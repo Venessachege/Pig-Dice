@@ -9,7 +9,7 @@ var diceRoller=function(){
   return (Math.floor(Math.random()*7));
   }
 }
-diceRoller();
+// diceRoller();
 $(document).ready(function(){
    $("form#form").submit(function(event){
      event.preventDefault();
