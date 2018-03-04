@@ -20,10 +20,19 @@ function scoreKeeper(user1, user2) {
     score = 0;
   }
 }
+function hold(){
 
+  document.getElementById('p2').style.visibility="visible";
+  document.getElementById('p1').style.visibility="hidden";
 
+}
 
+function hold1(){
+  document.getElementById('p1').style.visibility="visible";
+  document.getElementById('p2').style.visibility="hidden";
+}
 $(document).ready(function() {
+  document.getElementById('p2').style.visibility = "hidden";
   $("form#form").submit(function(event) {
     event.preventDefault();
     var name = $("input#player1").val();
