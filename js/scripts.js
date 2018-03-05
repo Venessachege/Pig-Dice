@@ -18,8 +18,8 @@ function scoreKeeper(user1, user2) {
     score += rolled;
   } else if (rolled === 1) {
     score = 0;
-    document.getElementById('p1').style.visibility="hidden";
-    document.getElementById('p2').style.visibility="visible";
+    // document.getElementById('p1').style.visibility="hidden";
+    // document.getElementById('p2').style.visibility="visible";
   }
 }
 function hold(){
