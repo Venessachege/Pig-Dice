@@ -1,5 +1,9 @@
 .player1{
+color: white;
 
+}
+.player2{
+  color: white;
 }
 .answer1 , .answer2{
   height: 400px;
