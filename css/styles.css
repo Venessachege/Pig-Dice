@@ -9,7 +9,7 @@
   text-align: center;
 }
 body{
-  /*background-image: url(/assets/dice_photo_via_shutterstock.jpg);*/
+  background-image: url(/assets/dice_photo_via_shutterstock.jpg);
   background-size: cover;
 }
 .text-center h1 ,h2{
